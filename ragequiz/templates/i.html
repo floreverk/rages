@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'templates/style1.css' %}">
     <title>I</title>
 </head>
 <body>
-    <h1>mijn ideale desinatie is</h1>
+    <p>Je ideale vakantiedesinatie is:</p>
     <button onclick="window.location.href='r3'">
-        <div>Miami beach</div>
+        <div><p>Miami beach</p></div>
     </button>
     <button onclick="window.location.href='r4'">
-        <div>Nederland</div>
+        <div><p>Nederland</p></div>
     </button>
 </body>
 </html>

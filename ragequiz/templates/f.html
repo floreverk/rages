@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'templates/style1.css' %}">
     <title>F</title>
 </head>
 <body>
-    <h1>je omringt je graag met</h1>
+    <p>Je omringt je graag met:</p>
     <button onclick="window.location.href='L'">
-        <div>huisdieren</div>
+        <div><p>huisdieren</p></div>
     </button>
     <button onclick="window.location.href='M'">
-        <div>speelgoed</div>
+        <div><p>speelgoed</p></div>
     </button>
 </body>
 </html>

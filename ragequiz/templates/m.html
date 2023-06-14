@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'templates/style1.css' %}">
     <title>M</title>
 </head>
 <body>
-    <h1>mijn lievelingskleur</h1>
+    <p>Je lievelingskleur:</p>
     <button onclick="window.location.href='r11'">
-        <div>zijn alle kleuren van de regenboog</div>
+        <div><p>zijn alle kleuren van de regenboog</p></div>
     </button>
     <button onclick="window.location.href='r12'">
-        <div>is geel</div>
+        <div><p>is geel</p></div>
     </button>
 </body>
 </html>
